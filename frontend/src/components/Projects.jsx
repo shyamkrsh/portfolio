@@ -8,7 +8,7 @@ function Projects() {
 
         <div className='mt-20 px-10 w-[100%] h-[100%] flex items-center justify-center gap-10 flex-wrap'>
 
-            <ProjectCard image={"./src/assets/easystay.png"}/>
+            <ProjectCard image={"./src/assets/easystay.png"} title={"Property Rental Application"} link={"https://easystayngp.vercel.app"}/>
             <ProjectCard image={"./src/assets/easystay.png"}/>
             <ProjectCard image={"./src/assets/easystay.png"}/>
             <ProjectCard image={"./src/assets/easystay.png"}/>

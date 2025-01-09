@@ -11,7 +11,7 @@ function CertificateCard({image, title, link}) {
                 <h1 className='text-xl font-semibold text-center mt-3'>{title}</h1>
             </div>
             <div className='mt-5'>
-                <button className='text-white bg-green-600 hover:bg-green-500 px-3 py-2 rounded-md font-semibold flex items-center justify-center gap-2' onClick={() => location.href="google.com"}>Go to Website <FaArrowUpRightFromSquare className='text-xl' /></button>
+                <button className='text-white bg-green-600 hover:bg-green-500 px-3 py-2 rounded-md font-semibold flex items-center justify-center gap-2' onClick={() => location.href=link}>Go to Website <FaArrowUpRightFromSquare className='text-xl' /></button>
             </div>
         </div>
     )

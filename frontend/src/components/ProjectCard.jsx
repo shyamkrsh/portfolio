@@ -9,10 +9,10 @@ function ProjectCard({image, title, link}) {
                 <img src={image} className='w-[100%] h-[100%] rounded-md' />
             </div>
             <div className='content'>
-                <h1 className='text-xl font-semibold text-center mt-3'>Property Rental Application</h1>
+                <h1 className='text-xl font-semibold text-center mt-3'>{title}</h1>
             </div>
             <div className='mt-5'>
-                <button className='text-white bg-green-600 hover:bg-green-500 px-3 py-2 rounded-md font-semibold flex items-center justify-center gap-2'>Go to Website <FaArrowUpRightFromSquare className='text-xl' /></button>
+                <button className='text-white bg-green-600 hover:bg-green-500 px-3 py-2 rounded-md font-semibold flex items-center justify-center gap-2' onClick={() => location.href=link}>Go to Website <FaArrowUpRightFromSquare className='text-xl' /></button>
             </div>
         </div>
     )

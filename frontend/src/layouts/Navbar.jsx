@@ -19,6 +19,8 @@ function Navbar() {
         setOpen(newOpen);
     };
 
+    const navigate = useNavigate();
+
     const DrawerList = (
         <Box sx={{ width: 250, height: '100vh', backgroundColor: '#000' }} bgcolor={"#000"} onClick={toggleDrawer(false)}>
             <h2 className='text-white text-2xl font-semibold text-center py-3 w-[100%] '>𝑴𝒚 𝑷𝒐𝒓𝒕𝒇𝒐𝒍𝒊𝒐</h2>
