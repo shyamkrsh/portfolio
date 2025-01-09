@@ -8,12 +8,12 @@ function Certificates() {
 
             <div className='mt-20 px-10 w-[100%] h-[100%] flex items-center justify-center gap-10 flex-wrap'>
 
-                <CertificateCard image={"./src/assets/nptel.png"} title={"DBMS - NPTEL"}  link={"./src/assets/nptel-result.pdf"}/>
-                <CertificateCard image={"./src/assets/nptel.png"} title={"Database Management System"} link={"/"}/>
-                <CertificateCard image={"./src/assets/nptel.png"} title={"Database Management System"} link={"/"}/>
-                <CertificateCard image={"./src/assets/nptel.png"} title={"Database Management System"} link={"/"}/>
-                <CertificateCard image={"./src/assets/nptel.png"} title={"Database Management System"} link={"/"}/>
-                <CertificateCard image={"./src/assets/nptel.png"} title={"Database Management System"} link={"/"}/>
+                <CertificateCard image={"https://i.ibb.co/9N20PbC/nptel.png"} title={"DBMS - NPTEL"}  link={"./src/assets/nptel-result.pdf"}/>
+                <CertificateCard image={"https://i.ibb.co/9N20PbC/nptel.png"} title={"Database Management System"} link={"/"}/>
+                <CertificateCard image={"https://i.ibb.co/9N20PbC/nptel.png"} title={"Database Management System"} link={"/"}/>
+                <CertificateCard image={"https://i.ibb.co/9N20PbC/nptel.png"} title={"Database Management System"} link={"/"}/>
+                <CertificateCard image={"https://i.ibb.co/9N20PbC/nptel.png"} title={"Database Management System"} link={"/"}/>
+                <CertificateCard image={"https://i.ibb.co/9N20PbC/nptel.png"} title={"Database Management System"} link={"/"}/>
 
             </div>
         </div>

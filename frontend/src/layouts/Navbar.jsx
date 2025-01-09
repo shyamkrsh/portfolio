@@ -40,7 +40,7 @@ function Navbar() {
         <header className='flex items-center justify-between px-5 py-2 bg-slate-950 shadow-lg sticky top-0 z-50'>
             <div className="logo flex items-center justify-center gap-3 md:gap-5 cursor-pointer" onClick={() => navigate("/")}>
                 <div className='w-[50px] h-[50px] rounded-full'>
-                    <img src="./src/assets/logo.png" alt="" className='w-[50px] h-[50px] rounded-full' />
+                    <img src="https://i.ibb.co/JyrW3xz/logo.png" alt="" className='w-[50px] h-[50px] rounded-full' />
                 </div>
                 <h1 className='text-3xl font-bold'>𝑺𝒉𝒚𝒂𝒎</h1>
             </div>
