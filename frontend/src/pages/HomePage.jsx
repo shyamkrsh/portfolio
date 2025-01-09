@@ -16,7 +16,6 @@ function HomePage() {
             <Education/>
             <Certificates/>
             <Contact/>
-            <Footer/>
         </>
     )
 }

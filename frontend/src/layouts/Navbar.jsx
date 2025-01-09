@@ -25,10 +25,10 @@ function Navbar() {
             <ul className='text-slate-300 ps-5 mt-5'>
                 <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/"}> <FaHome className='inline me-2 text-3xl'/> Home</Link></li>
                 <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/about"}> <GrStatusInfo className='inline me-2 text-3xl'/> About</Link></li>
-                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/education"}> <MdLibraryBooks className='inline me-2 text-3xl'/> Education</Link></li>
+                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/educations"}> <MdLibraryBooks className='inline me-2 text-3xl'/> Education</Link></li>
                 <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/projects"}> <GrProjects className='inline me-3 text-2xl'/> Projects</Link></li>
-                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/"}> <LiaCertificateSolid className='inline me-2 text-3xl'/> Certificates</Link></li>
-                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/"}> <IoMdContacts className='inline me-2 text-3xl'/> Contact</Link></li>
+                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/certificates"}> <LiaCertificateSolid className='inline me-2 text-3xl'/> Certificates</Link></li>
+                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/contacts"}> <IoMdContacts className='inline me-2 text-3xl'/> Contact</Link></li>
             </ul>
         </Box>
     );
@@ -45,10 +45,13 @@ function Navbar() {
             <div className='flex items-center justify-between gap-10'>
                 <div className=' hidden md:block'>
                     <ul className='flex items-center justify-center gap-5'>
-                        <li><Link to={"/home"}>Home</Link></li>
-                        <li><Link to={"/home"}>About</Link></li>
-                        <li><Link to={"/home"}>Contact</Link></li>
-                        <li><Link to={"/home"}>Skills</Link></li>
+                        <li className='font-semibold'><Link to={"/"}>Home</Link></li>
+                        <li className='font-semibold'><Link to={"/about"}>About</Link></li>
+                        <li className='font-semibold'><Link to={"/skills"}>Skills</Link></li>
+                        <li className='font-semibold'><Link to={"/projects"}>Projects</Link></li>
+                        <li className='font-semibold'><Link to={"/educations"}>Education</Link></li>
+                        <li className='font-semibold'><Link to={"/certificates"}>Certificates</Link></li>
+                        <li className='font-semibold'><Link to={"/contacts"}>Contact</Link></li>
                     </ul>
                 </div>
                 <div className='md:hidden'>

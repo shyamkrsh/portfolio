@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Contact() {
-  
+
   return (
     <div className='w-[100%] h-[100%]'>
       <h1 className='text-2xl text-center font-bold mt-20'>─═✧✧═─ ℂ𝕠𝕟𝕥𝕒𝕔𝕥 ─═✧✧═─</h1>
@@ -25,6 +25,10 @@ function Contact() {
               <h2>Description : </h2>
               <br />
               <textarea type="text" placeholder='write description' className='w-[100%] outline-none px-2 text-slate-700 rounded-md' rows={"5"}></textarea>
+            </div>
+
+            <div className='flex items-center justify-center mt-5 w-[50%] self-center'>
+              <button type='submit' className='text-white bg-blue-700 px-5 w-full text-xl py-2 rounded-md font-semibold'>Submit</button>
             </div>
           </form>
         </div>
