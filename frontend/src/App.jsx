@@ -1,15 +1,18 @@
 
 import './App.css'
+import Navbar from './layouts/Navbar'
+import HomePage from './pages/HomePage'
+
 
 function App() {
-
 
   return (
     <>
       <div>
-        <h1 className='text-red-600'>Shyam Kumar Sharma</h1>
+        <Navbar />
+        <HomePage/>
       </div>
-      
+
     </>
   )
 }
