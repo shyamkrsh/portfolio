@@ -61,20 +61,23 @@ body {
 }
 
 .skills {
-    background: linear-gradient(to bottom, transparent, #023e6e, #990992, #025e9b);
+    background: linear-gradient(to bottom, #063169, #023e6e, #990992, #025e9b, transparent, #031727);
 }
 
 .progress::-webkit-progress-value {
     background: linear-gradient(to right, #031727, #6fabd3, #025e9b);
 }
 .projects{
-    background: linear-gradient(to bottom, #060918, #101011, #0c0c0c);
+    background: linear-gradient(to bottom, #031727, #101011, #0c0c0c);
 }
 
 .projectCard{
     background: linear-gradient(to bottom right, transparent, #023e6e, #990992, #025e9b);
 }
 
+.education{
+    background: linear-gradient(to bottom, #0c0c0c, transparent, transparent);
+}
 .contactForm{
     background: linear-gradient(to bottom right, transparent, #023e6e, #990992, #025e9b);
 }

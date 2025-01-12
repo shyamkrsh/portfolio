@@ -4,8 +4,8 @@ import { ImQuotesRight } from "react-icons/im";
 
 function Education() {
     return (
-        <div className='w-[100%] '>
-            <h1 className='text-4xl ms:text-5xl text-center font-bold mt-20'>𝔼𝕕𝕦𝕔𝕒𝕥𝕚𝕠𝕟 </h1>
+        <div className='w-[100%] education '>
+            <h1 className='text-4xl ms:text-5xl text-center font-bold pt-20'>𝔼𝕕𝕦𝕔𝕒𝕥𝕚𝕠𝕟 </h1>
             <div className='flex flex-col md:flex-row items-center justify-center gap-20 mt-10'>
                 <div className='bg-slate-900 p-2 rounded-md w-[90%] md:w-[30%] h-[30vh] relative'>
                     <h2 className=' text-slate-600'><ImQuotesLeft className='text-2xl' /></h2>
