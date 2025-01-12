@@ -13,6 +13,7 @@ body {
     background: linear-gradient(to right, #000, transparent, #4d1f41, #063169);
     opacity: 1;
 }
+
 .intro {
     background: linear-gradient(to left, #000, transparent, #4d1f41, #063169, transparent);
 }
@@ -23,37 +24,57 @@ body {
     }
 }
 
-.introImg{
+.introImg {
     animation: scaling 2s linear infinite;
 }
 
 @keyframes scaling {
-    0%{
+    0% {
         scale: 1;
     }
-    50%{
+
+    50% {
         scale: 1.1;
     }
-    100%{
+
+    100% {
         scale: 1.2;
     }
 }
-.dnldrsmbtn{
+
+.dnldrsmbtn {
     animation: movetopbtm 2s linear infinite;
 }
 
 @keyframes movetopbtm {
-    0%{
+    0% {
         margin-top: -3px;
     }
-    50%{
+
+    50% {
         margin-top: 0px;
     }
-    100%{
+
+    100% {
         margin-top: 3px;
     }
 }
 
-.skills{
-    background: linear-gradient(to bottom, #023e6e, transparent, #990992, #025e9b);
+.skills {
+    background: linear-gradient(to bottom, transparent, #023e6e, #990992, #025e9b);
+}
+
+.progress::-webkit-progress-value {
+    background: linear-gradient(to right, #031727, #6fabd3, #025e9b);
+}
+.projects{
+    background: linear-gradient(to bottom, #060918, #101011, #0c0c0c);
+}
+
+.projectCard{
+    background: linear-gradient(to bottom right, transparent, #023e6e, #990992, #025e9b);
+}
+
+.contactForm{
+    background: linear-gradient(to bottom right, transparent, #023e6e, #990992, #025e9b);
 }

@@ -12,7 +12,9 @@ function HomePage() {
         <>
             <Intro />
             <Skills />
-            <Projects />
+            <div className='overflow-hidden'>
+                <Projects />
+            </div>
             <Education />
             <Certificates />
             <Contact />

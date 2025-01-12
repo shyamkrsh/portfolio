@@ -3,12 +3,11 @@ import React from 'react'
 function Contact() {
 
   return (
-    <div className='w-[100%] h-[100%]'>
-      <h1 className='text-2xl text-center font-bold mt-20'>─═✧✧═─ ℂ𝕠𝕟𝕥𝕒𝕔𝕥 ─═✧✧═─</h1>
-      <div className='mt-20 px-5 md:px-20 w-[100%] flex items-center justify-center'>
-        <div className='w-[100%] md:w-[70%] md:border md:py-5 md:px-20 '>
-          <h1 className='text-2xl font-bold text-center'>Contact Form</h1>
-          <form action="" className='flex flex-col mt-10'>
+    <div className='w-[100%] h-[100%] py-5 mt-20 contactForm'>
+      <h1 className='text-4xl md:text-5xl text-center font-bold mt-10'>ℂ𝕠𝕟𝕥𝕒𝕔𝕥 </h1>
+      <div className='mt-10 px-5 md:px-20 w-[100%] flex items-center justify-center'>
+        <div className='w-[100%] md:w-[70%]  md:py-5 md:px-20'>
+          <form action="" className='flex flex-col mt-10 '>
             <div>
               <h2>Name : </h2>
               <br />

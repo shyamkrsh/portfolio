@@ -8,7 +8,7 @@ function Skills() {
     return (
         <div className=' pb-5 skills'>
             <h1 className='text-4xl md:text-5xl text-center font-bold pt-20'>𝕊𝕜𝕚𝕝𝕝𝕤</h1>
-            <div className='px-10 flex flex-col md:flex-row items-center justify-center gap-5 md:gap-20 mt-20'>
+            <div className='px-10 flex flex-col md:flex-row items-center justify-center gap-5 md:gap-20 mt-20 pb-10'>
                 <div>
                     <div className='flex items-center justify-between'>
                         <h2>HTML</h2>
