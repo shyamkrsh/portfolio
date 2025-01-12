@@ -10,12 +10,12 @@ import Footer from '../layouts/Footer'
 function HomePage() {
     return (
         <>
-            <Intro/>
-            <Skills/>
-            <Projects/>
-            <Education/>
-            <Certificates/>
-            <Contact/>
+            <Intro />
+            <Skills />
+            <Projects />
+            <Education />
+            <Certificates />
+            <Contact />
         </>
     )
 }

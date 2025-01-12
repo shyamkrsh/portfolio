@@ -1,10 +1,55 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #000;
     color: white;
+}
+
+.navbar {
+    background: linear-gradient(to right, #000, transparent, #4d1f41, #063169);
+    opacity: 1;
+}
+.intro {
+    background: linear-gradient(to left, #000, transparent, #4d1f41, #063169, transparent);
+}
+
+@media (max-width: 774px) {
+    .intro {
+        background: linear-gradient(to bottom, #000, transparent, #4d1f41, #063169);
+    }
+}
+
+.introImg{
+    animation: scaling 2s linear infinite;
+}
+
+@keyframes scaling {
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.1;
+    }
+    100%{
+        scale: 1.2;
+    }
+}
+.dnldrsmbtn{
+    animation: movetopbtm 2s linear infinite;
+}
+
+@keyframes movetopbtm {
+    0%{
+        margin-top: -3px;
+    }
+    50%{
+        margin-top: 0px;
+    }
+    100%{
+        margin-top: 3px;
+    }
 }

@@ -7,7 +7,7 @@ function Skills() {
 
     return (
         <div>
-            <h1 className='text-2xl text-center font-bold mt-20'>─═✧✧═─ 𝕊𝕜𝕚𝕝𝕝𝕤 ─═✧✧═─</h1>
+            <h1 className='text-2xl text-center font-bold pt-20'>─═✧✧═─ 𝕊𝕜𝕚𝕝𝕝𝕤 ─═✧✧═─</h1>
             <div className='px-10 flex flex-col md:flex-row items-center justify-center gap-5 md:gap-20 mt-20'>
                 <div>
                     <div className='flex items-center justify-between'>

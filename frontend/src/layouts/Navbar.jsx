@@ -11,6 +11,7 @@ import { GrProjects } from "react-icons/gr";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { IoMdContacts } from "react-icons/io";
 
+
 function Navbar() {
 
     const [open, setOpen] = React.useState(false);
@@ -22,7 +23,7 @@ function Navbar() {
     const navigate = useNavigate();
 
     const DrawerList = (
-        <Box sx={{ width: 250, height: '100vh', backgroundColor: '#000' }} bgcolor={"#000"} onClick={toggleDrawer(false)}>
+        <Box sx={{ width: 250, height: '100vh', background: 'linear-gradient(to bottom, #000, #4d1f41, #063169)' }} bgcolor={"#000"} onClick={toggleDrawer(false)}>
             <h2 className='text-white text-2xl font-semibold text-center py-3 w-[100%] '>𝑴𝒚 𝑷𝒐𝒓𝒕𝒇𝒐𝒍𝒊𝒐</h2>
             <ul className='text-slate-300 ps-5 mt-5'>
                 <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/"}> <FaHome className='inline me-2 text-3xl'/> Home</Link></li>
@@ -35,9 +36,10 @@ function Navbar() {
         </Box>
     );
 
+    
 
     return (
-        <header className='flex items-center justify-between px-5 py-2 bg-slate-950 shadow-lg sticky top-0 z-50'>
+        <header className='navbar flex items-center justify-between px-5 py-2  shadow-lg sticky top-0 z-50'>
             <div className="logo flex items-center justify-center gap-3 md:gap-5 cursor-pointer" onClick={() => navigate("/")}>
                 <div className='w-[50px] h-[50px] rounded-full'>
                     <img src="https://i.ibb.co/JyrW3xz/logo.png" alt="" className='w-[50px] h-[50px] rounded-full' />
