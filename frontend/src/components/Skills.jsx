@@ -6,8 +6,8 @@ function Skills() {
     const [showmore, setShowMore] = useState(false);
 
     return (
-        <div>
-            <h1 className='text-2xl text-center font-bold pt-20'>─═✧✧═─ 𝕊𝕜𝕚𝕝𝕝𝕤 ─═✧✧═─</h1>
+        <div className=' pb-5 skills'>
+            <h1 className='text-4xl md:text-5xl text-center font-bold pt-20'>𝕊𝕜𝕚𝕝𝕝𝕤</h1>
             <div className='px-10 flex flex-col md:flex-row items-center justify-center gap-5 md:gap-20 mt-20'>
                 <div>
                     <div className='flex items-center justify-between'>
@@ -56,7 +56,7 @@ function Skills() {
 
                 </div>
 
-                <h2 className={showmore ? "hidden": 'flex items-center justify-center text-blue-600 font-semibold md:hidden'} onClick={() => setShowMore(!showmore)}>See more skills <FaAngleDoubleRight className='ms-2' /></h2>
+                <h2 className={showmore ? "hidden": 'text-xl flex items-center justify-center text-white font-semibold md:hidden'} onClick={() => setShowMore(!showmore)}>See more skills <FaAngleDoubleRight className='ms-2' /></h2>
 
                 <div className={showmore ? "block" : "hidden md:block"}>
                     <div className='flex items-center justify-between'>

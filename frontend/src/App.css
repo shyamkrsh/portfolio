@@ -53,3 +53,7 @@ body {
         margin-top: 3px;
     }
 }
+
+.skills{
+    background: linear-gradient(to bottom, #023e6e, transparent, #990992, #025e9b);
+}
