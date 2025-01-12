@@ -1,6 +1,7 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
 import { CgSoftwareDownload } from "react-icons/cg";
+import { motion } from "motion/react"
 
 function Intro() {
     return (
@@ -52,9 +53,14 @@ function Intro() {
                     </div>
                 </div>
                 <div className="w-[100%] md:w-[50%] h-[100%]  grid place-content-center relative">
-                    <div className='w-[18rem] h-[18rem] md:w-[20rem] md:h-[20rem] lg:w-[25rem] lg:h-[25rem] rounded-full relative grid place-content-center'>
-                        <img src="https://i.ibb.co/RHgr3xQ/20250112-212148.png" className='introImg w-[18rem] h-[18rem] md:w-[20rem] md:h-[20rem] lg:w-[25rem] lg:h-[25rem] rounded-full relative' />
-                    </div>
+                    <motion.div className='w-[18rem] h-[18rem] md:w-[20rem] md:h-[20rem] lg:w-[25rem] lg:h-[25rem] rounded-full relative grid place-content-center'
+                    animate={{ rotate: 360 }}
+                    transition={{ duration: 1 }}
+                    >
+
+                    <img src="https://i.ibb.co/RHgr3xQ/20250112-212148.png" className='introImg w-[18rem] h-[18rem] md:w-[20rem] md:h-[20rem] lg:w-[25rem] lg:h-[25rem] rounded-full relative' />
+                    
+                    </motion.div>
                 </div>
             </div>
        
