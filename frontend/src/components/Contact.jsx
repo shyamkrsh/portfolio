@@ -4,7 +4,7 @@ function Contact() {
 
   return (
     <div className='w-[100%] h-[100%] py-5 mt-20 contactForm'>
-      <h1 className='text-4xl md:text-5xl text-center font-bold mt-10'>ℂ𝕠𝕟𝕥𝕒𝕔𝕥 </h1>
+      <h1 className='text-4xl md:text-5xl text-center font-semibold mt-10'>𝗖𝗼𝗻𝘁𝗮𝗰𝘁 </h1>
       <div className='mt-10 px-5 md:px-20 w-[100%] flex items-center justify-center'>
         <div className='w-[100%] md:w-[70%]  md:py-5 md:px-20'>
           <form action="" className='flex flex-col mt-10 '>

@@ -9,10 +9,10 @@ function Intro() {
             <div className='intro flex flex-col-reverse md:flex-row items-center justify-between w-[100%] pt-10 pb-10'>
                 <div className="w-[100%] md:w-[50%] h-[100%] flex items-center mt-10">
                     <div className='w-[100%] h-[70%]  md:ps-[10rem]'>
-                        <h1 className='text-3xl font-bold text-yellow-600 text-center md:text-left md:text-5xl' style={{ textShadow: '1px 1px 1px gray' }}>Good Morning !</h1>
+                        <h1 className='text-3xl font-bold text-yellow-600 text-center md:text-left md:text-5xl' >Good Morning !</h1>
                         <h2 className='text-3xl font-bold mt-1 md:text-5xl'>
-                            <h2 className='text-center md:text-left ' style={{ textShadow: '1px 1px 1px gray' }}>I am a</h2>
-                            <h2 className='text-green-500 text-center md:text-left mt--1' style={{ textShadow: '1px 1px 1px gray' }}>
+                            <h2 className='text-center md:text-left ' >I am a</h2>
+                            <h2 className='text-green-500 text-center md:text-left mt--1' >
                                 <Typewriter
                                     options={{
                                         loop: true,

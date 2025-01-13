@@ -24,19 +24,25 @@ function Navbar() {
 
     const DrawerList = (
         <Box sx={{ width: 250, height: '100vh', background: 'linear-gradient(to bottom, #000, #063169)' }} bgcolor={"#000"} onClick={toggleDrawer(false)}>
-            <h2 className='text-white text-2xl font-semibold text-center py-3 w-[100%] '>𝑴𝒚 𝑷𝒐𝒓𝒕𝒇𝒐𝒍𝒊𝒐</h2>
+
+            <div className='w-[6rem] h-[6rem] rounded-full flex items-center justify-center cardBtn text-center m-auto mt-8'>
+                <img src="https://i.ibb.co/JyrW3xz/logo.png" className='w-[5rem] h-[5rem] rounded-full ' />
+            </div>
+
+            <h2 className='text-white text-xl font-semibold text-center py-3 w-[100%] '>Shyam Kumar Sharma</h2>
+            <h2 className='text-white text-xl font-semibold text-center w-[100%] '>MERN Developer</h2>
             <ul className='text-slate-300 ps-5 mt-5'>
-                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/"}> <FaHome className='inline me-2 text-3xl'/> Home</Link></li>
-                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/about"}> <GrStatusInfo className='inline me-2 text-3xl'/> About</Link></li>
-                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/educations"}> <MdLibraryBooks className='inline me-2 text-3xl'/> Education</Link></li>
-                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/projects"}> <GrProjects className='inline me-3 text-2xl'/> Projects</Link></li>
-                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/certificates"}> <LiaCertificateSolid className='inline me-2 text-3xl'/> Certificates</Link></li>
-                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/contacts"}> <IoMdContacts className='inline me-2 text-3xl'/> Contact</Link></li>
+                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/"}> <FaHome className='inline me-2 text-3xl' /> Home</Link></li>
+                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/about"}> <GrStatusInfo className='inline me-2 text-3xl' /> About</Link></li>
+                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/educations"}> <MdLibraryBooks className='inline me-2 text-3xl' /> Education</Link></li>
+                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/projects"}> <GrProjects className='inline me-3 text-2xl' /> Projects</Link></li>
+                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/certificates"}> <LiaCertificateSolid className='inline me-2 text-3xl' /> Certificates</Link></li>
+                <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/contacts"}> <IoMdContacts className='inline me-2 text-3xl' /> Contact</Link></li>
             </ul>
         </Box>
     );
 
-    
+
 
     return (
         <header className='navbar flex items-center justify-end md:justify-between px-5 py-2  sticky top-0 z-50'>

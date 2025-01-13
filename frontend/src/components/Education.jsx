@@ -23,7 +23,7 @@ function Education() {
 
     return (
         <div className='w-[100%] education '>
-            <h1 className='text-4xl ms:text-5xl text-center font-bold pt-20'>𝔼𝕕𝕦𝕔𝕒𝕥𝕚𝕠𝕟 </h1>
+            <h1 className='text-4xl ms:text-5xl text-center font-bold pt-20'>𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻𝘀 </h1>
             <div className='flex flex-col md:flex-row items-center justify-center gap-20 mt-10'>
                 <motion.div className='bg-slate-900 p-2 rounded-md w-[90%] md:w-[30%] h-[30vh] relative' id="animated-div"
                     initial={{ opacity: 0, scale: 0 }}
