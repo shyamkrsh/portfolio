@@ -9,12 +9,15 @@ body {
     color: white;
 }
 
-.navbar {
-    background: linear-gradient(to right, #000, transparent, #4d1f41, #063169);
-    opacity: 1;
+.menuBtn{
+    background: linear-gradient(to right, #020118, #200320, #084a64);
 }
 
-.intro {
+
+
+
+
+/* .intro {
     background: linear-gradient(to left, #000, transparent, #4d1f41, #063169, transparent);
 }
 
@@ -22,7 +25,7 @@ body {
     .intro {
         background: linear-gradient(to bottom, #000, transparent, #4d1f41, #063169);
     }
-}
+} */
 
 .introImg {
     animation: scaling 2s linear infinite;
@@ -42,27 +45,11 @@ body {
     }
 }
 
-.dnldrsmbtn {
-    animation: movetopbtm 2s linear infinite;
-}
 
-@keyframes movetopbtm {
-    0% {
-        margin-top: -3px;
-    }
 
-    50% {
-        margin-top: 0px;
-    }
-
-    100% {
-        margin-top: 3px;
-    }
-}
-
-.skills {
+/* .skills {
     background: linear-gradient(to bottom, #063169, #023e6e, #990992, #025e9b, transparent, #031727);
-}
+} */
 
 .progress::-webkit-progress-value {
     background: linear-gradient(to right, #031727, #6fabd3, #025e9b);
@@ -75,9 +62,13 @@ body {
     background: linear-gradient(to bottom right, transparent, #023e6e, #990992, #025e9b);
 }
 
-.education{
+/* .education{
     background: linear-gradient(to bottom, #0c0c0c, transparent, transparent);
-}
-.contactForm{
+} */
+/* .contactForm{
     background: linear-gradient(to bottom, transparent, #023e6e, #990992, #025e9b, transparent);
+} */
+
+.dnldbtn{
+    background: linear-gradient(to right, #020118, #200320, #084a64);
 }

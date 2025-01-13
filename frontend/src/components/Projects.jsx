@@ -32,7 +32,8 @@ function Projects() {
   };
   return (
     <div className='w-[100%] h-[100%] projects text-center'>
-      <h1 className='text-4xl md:text-5xl text-center font-bold pt-20'>ℙ𝕣𝕠𝕛𝕖𝕔𝕥𝕤</h1>
+      <h1 className='text-4xl md:text-5xl text-center font-bold pt-20'>𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀 </h1>
+
       <Slider {...settings} className="py-10 mt-5">
           <ProjectCard image={"https://i.ibb.co/NYj6XQK/easystay.png"} title={"Property Rental Application"} link={"https://easystayngp.vercel.app"} />
           <ProjectCard image={"https://i.ibb.co/NYj6XQK/easystay.png"} title={"Property Rental Application"} link={"https://easystayngp.vercel.app"} />

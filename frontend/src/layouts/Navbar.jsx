@@ -23,7 +23,7 @@ function Navbar() {
     const navigate = useNavigate();
 
     const DrawerList = (
-        <Box sx={{ width: 250, height: '100vh', background: 'linear-gradient(to bottom, #000, #4d1f41, #063169)' }} bgcolor={"#000"} onClick={toggleDrawer(false)}>
+        <Box sx={{ width: 250, height: '100vh', background: 'linear-gradient(to bottom, #000, #063169)' }} bgcolor={"#000"} onClick={toggleDrawer(false)}>
             <h2 className='text-white text-2xl font-semibold text-center py-3 w-[100%] '>𝑴𝒚 𝑷𝒐𝒓𝒕𝒇𝒐𝒍𝒊𝒐</h2>
             <ul className='text-slate-300 ps-5 mt-5'>
                 <li className='text-xl font-semibold py-3 flex items-center justify-start '><Link to={"/"}> <FaHome className='inline me-2 text-3xl'/> Home</Link></li>
@@ -39,12 +39,12 @@ function Navbar() {
     
 
     return (
-        <header className='navbar flex items-center justify-between px-5 py-2  shadow-lg sticky top-0 z-50'>
-            <div className="logo flex items-center justify-center gap-3 md:gap-5 cursor-pointer" onClick={() => navigate("/")}>
+        <header className='navbar flex items-center justify-end md:justify-between px-5 py-2  sticky top-0 z-50'>
+            <div className="logo hidden md:flex items-center justify-center gap-3 md:gap-5 cursor-pointer" onClick={() => navigate("/")}>
                 <div className='w-[50px] h-[50px] rounded-full'>
                     <img src="https://i.ibb.co/JyrW3xz/logo.png" alt="" className='w-[50px] h-[50px] rounded-full' />
                 </div>
-                <h1 className='text-3xl font-bold'>𝑺𝒉𝒚𝒂𝒎</h1>
+                <h1 className='text-3xl font-bold text-white'>Shyam</h1>
             </div>
             <div className='flex items-center justify-between gap-10'>
                 <div className=' hidden md:block'>
@@ -59,7 +59,7 @@ function Navbar() {
                     </ul>
                 </div>
                 <div className='md:hidden'>
-                    <button onClick={toggleDrawer(true)}>
+                    <button onClick={toggleDrawer(true)} className='p-5 menuBtn rounded-full'>
                         <RiMenu3Fill className='text-3xl font-semibold' />
                     </button>
                     <div>
