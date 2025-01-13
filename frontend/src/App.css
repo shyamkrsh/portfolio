@@ -79,5 +79,5 @@ body {
     background: linear-gradient(to bottom, #0c0c0c, transparent, transparent);
 }
 .contactForm{
-    background: linear-gradient(to bottom right, transparent, #023e6e, #990992, #025e9b);
+    background: linear-gradient(to bottom, transparent, #023e6e, #990992, #025e9b, transparent);
 }
