@@ -12,7 +12,11 @@ body {
 .menuBtn{
     background: linear-gradient(to right, #020118, #200320, #084a64);
 }
-
+.cardBtn{
+    background: linear-gradient(to right, #020118, #a80752, #2205c4);
+    padding: 10px;
+    border-radius: 50%;
+}
 
 
 

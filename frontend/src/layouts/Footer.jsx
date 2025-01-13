@@ -12,16 +12,16 @@ function Footer() {
             <nav>
                 <div className="grid grid-flow-col gap-4">
                     <a href='https://www.linkedin.com/in/shyamkrsh/'>
-                        <FaLinkedin  className='text-white text-3xl'/>
+                        <FaLinkedin  className='text-white text-5xl cardBtn'/>
                     </a>
                     <a>
-                        <FaFacebookSquare  className='text-white text-3xl'/>
+                        <FaFacebookSquare  className='text-white text-5xl cardBtn'/>
                     </a>
                     <a>
-                        <FaSquareInstagram  className='text-white text-3xl'/>
+                        <FaSquareInstagram  className='text-white text-5xl cardBtn'/>
                     </a>
                     <a>
-                        <FaSquareTwitter  className='text-white text-3xl'/>
+                        <FaSquareTwitter  className='text-white text-5xl cardBtn'/>
                     </a>
                 </div>
             </nav>

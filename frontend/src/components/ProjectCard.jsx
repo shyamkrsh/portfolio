@@ -13,8 +13,8 @@ function ProjectCard({ image, title, link }) {
                 <h1 className='text-xl font-semibold text-center mt-3'>{title}</h1>
             </div>
             <div className='mt-3 flex items-center gap-5'>
-                <button className='menuBtn' onClick={() => location.href = link}><FaGithub className='text-3xl' /></button>
-                <button className='menuBtn' onClick={() => location.href = link}><FaArrowUpRightFromSquare className='text-2xl' /></button>
+                <button className='cardBtn' onClick={() => location.href = link}><FaGithub className='text-3xl' /></button>
+                <button className='cardBtn' onClick={() => location.href = link}><FaArrowUpRightFromSquare className='text-2xl' /></button>
             </div>
         </div>
     )
