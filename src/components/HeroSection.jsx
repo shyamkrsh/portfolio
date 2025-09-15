@@ -98,7 +98,7 @@ export default function HeroSection() {
             , a passionate developer skilled in{" "}
             <span className="text-purple-500 font-medium">MERN stack</span> &nbsp;
             and{" "}
-            <span className="text-blue-500 font-medium">AI/ML</span>, crafting
+            <span className="text-blue-500 font-medium">Agentic AI</span>, crafting
             scalable and impactful digital solutions.
           </motion.p>
 

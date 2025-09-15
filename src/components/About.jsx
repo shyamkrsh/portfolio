@@ -79,7 +79,7 @@ export default function About() {
             </span>{" "}
             — a passionate{" "}
             <span className="text-purple-500 font-medium">Full Stack Developer</span>{" "}
-            skilled in MERN stack with strong interest in{" "}
+            skilled in MERN stack and Agentic AI with strong interest in{" "}
             <span className="text-blue-500 font-medium">Data Analytics & AI</span>.
             I enjoy crafting modern, scalable, and impactful digital solutions that
             bridge technology with real-world needs.

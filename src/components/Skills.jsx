@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { FaReact, FaTools } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+
 import {
     SiReact,
     SiNextdotjs,
@@ -19,33 +21,41 @@ import {
     SiVercel,
     SiRender,
     SiMysql,
+    SiPython,
+    SiC,
 } from "react-icons/si";
 import { useSelector } from "react-redux";
 
 export default function Skills() {
     const { theme } = useSelector((state) => state.theme);
     const skills = [
-        { name: "React.js", icon: <SiReact className="text-sky-500" />, level: 95 },
-        { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400" />, level: 90 },
-        { name: "Material UI", icon: <SiMui className="text-blue-500" />, level: 85 },
-        { name: "Node.js", icon: <SiNodedotjs className="text-green-600" />, level: 95 },
-        { name: "Express.js", icon: <SiExpress className={theme === "dark" ? "text-gray-200" : "text-gray-800"} />, level: 85 },
-        { name: "MongoDB", icon: <SiMongodb className="text-green-500" />, level: 90 },
-        { name: "MySQL", icon: <SiMysql className="text-blue-600" />, level: 85 },
-        { name: "React Native", icon: <FaReact className="text-sky-400" />, level: 80 },
-        { name: "Expo", icon: <SiExpo className={theme === "dark" ? "text-white" : "text-black"} />, level: 70 },
-        { name: "Git", icon: <SiGit className="text-orange-500" />, level: 90 },
-        { name: "GitHub", icon: <SiGithub className={theme === "dark" ? "text-white" : "text-black"} />, level: 85 },
-        { name: "Postman", icon: <SiPostman className="text-orange-400" />, level: 80 },
-        { name: "Cloudinary", icon: <SiCloudinary className="text-blue-400" />, level: 85 },
-        { name: "Vercel", icon: <SiVercel className={theme === "dark" ? "text-white" : "text-black"} />, level: 90 },
-        { name: "Render", icon: <SiRender className="text-purple-500" />, level: 70 },
-        {
-            name: "Other Frameworks",
-            icon: <FaTools className={theme === "dark" ? "text-gray-200" : "text-gray-700"} />,
-            level: 75
-        },
-    ];
+    { name: "React.js", icon: <SiReact className="text-sky-500" />, level: 95 },
+    { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400" />, level: 90 },
+    { name: "Material UI", icon: <SiMui className="text-blue-500" />, level: 85 },
+    { name: "Node.js", icon: <SiNodedotjs className="text-green-600" />, level: 95 },
+    { name: "Express.js", icon: <SiExpress className={theme === "dark" ? "text-gray-200" : "text-gray-800"} />, level: 85 },
+    { name: "MongoDB", icon: <SiMongodb className="text-green-500" />, level: 90 },
+    { name: "MySQL", icon: <SiMysql className="text-blue-600" />, level: 85 },
+    { name: "React Native", icon: <FaReact className="text-sky-400" />, level: 80 },
+    { name: "Expo", icon: <SiExpo className={theme === "dark" ? "text-white" : "text-black"} />, level: 70 },
+    { name: "Git", icon: <SiGit className="text-orange-500" />, level: 90 },
+    { name: "GitHub", icon: <SiGithub className={theme === "dark" ? "text-white" : "text-black"} />, level: 85 },
+    { name: "Postman", icon: <SiPostman className="text-orange-400" />, level: 80 },
+    { name: "Cloudinary", icon: <SiCloudinary className="text-blue-400" />, level: 85 },
+    { name: "Vercel", icon: <SiVercel className={theme === "dark" ? "text-white" : "text-black"} />, level: 90 },
+    { name: "Render", icon: <SiRender className="text-purple-500" />, level: 70 },
+
+    // 🆕 Added programming languages
+    { name: "Java", icon: <FaJava className="text-red-500" />, level: 85 },
+    { name: "Python", icon: <SiPython className="text-yellow-400" />, level: 90 },
+    { name: "C", icon: <SiC className="text-blue-500" />, level: 75 },
+
+    {
+        name: "Other Frameworks",
+        icon: <FaTools className={theme === "dark" ? "text-gray-200" : "text-gray-700"} />,
+        level: 75
+    },
+];
 
     const { ref, inView } = useInView({
         triggerOnce: false,
