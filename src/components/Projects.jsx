@@ -5,7 +5,6 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { useSelector } from "react-redux";
 
 export default function Projects() {
-
     const { theme } = useSelector((state) => state.theme);
     const projects = [
         {
@@ -48,7 +47,7 @@ export default function Projects() {
             live: "#",
             github: "#",
         },
-       
+
     ];
 
     const cardVariants = {

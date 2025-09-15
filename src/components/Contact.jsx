@@ -1,23 +1,41 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { useSelector } from "react-redux";
 import { LuSend } from "react-icons/lu";
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
   const { theme } = useSelector((state) => state.theme);
   const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.2 });
-
   const [form, setForm] = useState({ name: "", email: "", message: "" });
-
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
+ const service_id = import.meta.env.VITE_EMAIL_SERVICE_ID;
+const email_template_id = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
+const email_public_key = import.meta.env.VITE_PUBLIC_KEY;
+
+  useEffect(() => {
+    console.log("Service_id -- ", service_id)
+  }, [])
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Form submitted 🚀");
+    emailjs
+      .send(
+        service_id, 
+        email_template_id,
+        {
+          from_name: form.name,
+          message: form.message + "\nHere is my Email : " + form.email,
+        },
+        email_public_key 
+      ).catch((err) => {
+        console.log("error - ", err?.message || err);
+      })
     setForm({ name: "", email: "", message: "" });
   };
 

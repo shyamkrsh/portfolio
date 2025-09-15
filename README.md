@@ -1,12 +1,52 @@
-# React + Vite
+# 👋 Hi, I'm Shyam Kumar Sharma  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+💻 **Full-Stack Developer | MERN Stack | React Native Enthusiast**  
 
-Currently, two official plugins are available:
+I’m passionate about building **scalable web and mobile applications** that solve real-world problems.  
+With expertise in the **MERN Stack** and **React Native**, I aim to create impactful solutions while constantly exploring new technologies.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 About Me  
+- 🌱 Currently mastering **App Development with React Native**  
+- 💡 Skilled in **MERN Stack (MongoDB, Express.js, React.js, Node.js)**  
+- 📱 Building **cross-platform mobile apps** with **React Native**  
+- 💞️ Open to collaborating on **innovative projects & startups**  
+- 🎯 Goal: To join a **high-growth company** and contribute to world-class products  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack  
+
+**Frontend:**  
+React.js ⚛️ | Redux | Tailwind CSS | Material-UI  
+
+**Backend:**  
+Node.js | Express.js | REST APIs | Authentication  
+
+**Database:**  
+MongoDB | Mongoose | Firebase (Basics)  
+
+**Mobile Development:**  
+React Native | Expo  
+
+**Other Tools:**  
+Git | GitHub | Vercel | Render | Postman | Cloudinary  
+
+---
+
+## 📊 GitHub Stats  
+
+![Shyam's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shyamkrsh&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shyamkrsh&layout=compact&theme=radical)  
+
+---
+
+## 📫 Connect With Me  
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/shyamkrsh)  
+- 📧 Email: **shyamkrcse@gmail.com**  
+
+---
+
+✨ _Always eager to learn, collaborate, and create something impactful!_ ✨

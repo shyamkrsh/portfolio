@@ -9,14 +9,14 @@ const testimonials = [
         role: "Teammate - Easy Stay",
         feedback:
             "Working with Shyam was an amazing experience. He handled the backend and authentication flawlessly, making the project stable and scalable.",
-        image: "https://i.pravatar.cc/100?img=3",
+        image: "/assets/images/sonu.jpg",
     },
     {
         name: "Dr. Shakti Nath Singh",
         role: "HOD - College",
         feedback:
             "Shyam’s dedication and creativity in building real-world projects like Smart Virtual Mouse using hand gesture and EasyStay make him stand out from his peers.",
-        image: "https://i.pravatar.cc/100?img=5",
+        image: "/assets/images/shaktisir.jpg",
     },
     {
         name: "Rohit Mehta",
