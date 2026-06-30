@@ -79,7 +79,7 @@ export default function Skills() {
                     Skills & Tools
                 </h2>
 
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="grid sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4">
                     {skills.map((skill, index) => (
                         <div
                             key={index}
@@ -95,9 +95,9 @@ export default function Skills() {
                                         }`}
                                 >
                                     <span>{skill.name}</span>
-                                    <span>{skill.level}%</span>
+                                    {/* <span>{skill.level}%</span> */}
                                 </div>
-                                <div
+                                {/* <div
                                     className={`w-full h-3 rounded-full mt-2 ${theme === "dark" ? "bg-gray-700" : "bg-gray-300"
                                         }`}
                                 >
@@ -110,7 +110,7 @@ export default function Skills() {
                                             : "bg-gradient-to-r from-blue-500 to-purple-500"
                                             }`}
                                     />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     ))}
